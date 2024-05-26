@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xample</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainContainer" style="padding: 20px 120px;">
+        <div class="containerOne">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <a class="navbar-brand text-danger font-weight-bold px-4" style="font-size: 40px;" href="#">Xample</a>
+                <button class="btn btn-outline-danger ml-auto px-6 py-2" type="button" style="border-radius: 30px; border-width: 3px; font-size: 20px; padding: 30px;">Try Free</button>
+            </nav>
+
+            <div class="jumbotron bg-white d-flex flex-column flex-md-row">
+                <div class="heroText" style="max-width: 500px;">
+                    <h1 class="display-4" style="font-weight: 800;">Xample product or a service</h1>
+                    <p class="mt-5" style="color: gray;">
+                        At Xample, we believe in the power of collaboration. We're not just another service provider; we're your partners in progress. By working closely with our clients, we craft tailored solutions that make a tangible impact on their business.
+                    </p>
+                    <div class="d-flex mt-5">
+                        <div class="input-group mb-3">
+                            <div class="col-auto">
+                                <input id="emailInput" type="text" class="form-control" aria-label="" aria-describedby="basic-addon1" placeholder="Name@company.com" style="width: 100%; max-width: 350px; border-radius: 30px; border-width: 1px; font-size: 20px; padding: 20px;">
+                            </div>                            
+                            <div class="input-group-append ml-2 ml-md-4">
+                                <button id="submitButton" class="btn btn-danger" type="button" style="width: 150px; max-width: 150px; border-radius: 30px; border-width: 3px; font-size: 20px; padding: 5px;">Try it Free</button>
+                            </div>
+                        </div>               
+                    </div>
+                </div>
+                <figure class="figure mt-md-0" style="width: 100%;">
+                    <img src="./Items/hero.jpg" alt="collaboration" class="img-fluid rounded" style="height: 750px; max-height: 450px; margin-left: 10px;">
+                </figure>
+            </div>
+            
+
+            <div class="jumbotron bg-white">
+                <h1 class="display-5 font-weight-bold text-center">Featured Service that We Provide</h1>
+                <div class="row justify-content-center mt-5" style="margin-left: 40px;">
+                    <div class="col-md-4 mb-4">
+                        <div class="card" style="background-color: darkred; border-radius: 10px; height: 430px; width: 300px;">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-center">
+                                    <img class="card-img-top" src="./Items/tasks.png" alt="Tasks" style="height: 200px; width: 230px;">
+                                </div>
+                                <h5 class="card-title font-weight-bold text-center" style="font-size: 25px; color: white;">Keep tasks in one place</h5>
+                                <p class="card-text text-center" style=" color: white;">Save time, avoid losing work and information, delegate, and track tasks to stay on schedule</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card mt-5" style="background-color: rgba(0, 167, 196, 0.73); border-radius: 10px; height: 430px; width: 300px;">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-center">
+                                    <img class="card-img-top" src="./Items/money.png" alt="Money" style="height: 200px; width: 230px;">
+                                </div>
+                                <h5 class="card-title font-weight-bold text-center" style="font-size: 25px;">Save money and time at once</h5>
+                                <p class="card-text text-center">Save time, avoid losing work and information, delegate, and track tasks to stay on schedule</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card mt-3" style="background-color: rgba(207, 169, 0, 0.808); border-radius: 10px; height: 430px; width: 300px;">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-center">
+                                    <img class="card-img-top" src="./Items/precise.png" alt="Precise" style="height: 200px; width: 230px;">
+                                </div>
+                                <h5 class="card-title font-weight-bold text-center" style="font-size: 25px;">Allocate time more precisely</h5>
+                                <p class="card-text text-center">Save time, avoid losing work and information, delegate, and track tasks to stay on schedule</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="jumbotron bg-white">
+                <div class="row">
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <figure class="figure" style="max-height: 400px; width: 100%;">
+                            <img src="./Items/dashboard.jpg" alt="dashboard" class="img-fluid rounded">
+                        </figure>
+                    </div>
+                    <div class="col-lg-6" style="max-width: 500px;">
+                        <div class="heroText ml-lg-5">
+                            <h1 class="display-5 font-weight-bold">Streamline Your Workflow, Focus Your Efforts</h1>
+                            <p class="mt-4" style="color: gray;">
+                                Tired of juggling sticky notes, rummaging through emails, and feeling overwhelmed by scattered to-dos? Say goodbye to chaos and hello to productivity with our all-in-one solution.
+                            </p>
+                            <div class="mt-4">
+                                <div class="input-group mb-3">                         
+                                    <div class="input-group-append ml-2">
+                                        <button id="learnMore" class="btn btn-danger" type="button" style="border-radius: 35px; border-width: 3px; font-size: 24px; padding: 15px; width: 180px;">Learn more</button>
+                                    </div>
+                                </div>               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+
+            <div class="jumbotron bg-white">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="heroText ml-lg-5">
+                            <h1 class="display-5 font-weight-bold">Simplify Your Workflow, Amplify Your Success</h1>
+                            <p class="mt-5" style="color: gray;">
+                                Ready to revolutionize the way you work? Discover how our solution can transform your productivity and propel you towards your goals.
+                            </p>
+                            <div class="row mt-5 justify-content-start">
+                                <div class="col-lg-6 d-flex align-items-start">
+                                    <figure class="figure mt-2" style="max-height: 200px; width: 50%;">
+                                        <img src="./Items/apple.jpg" alt="" class="img-fluid rounded" style="height: 100%; width: auto;">
+                                    </figure>
+                                    <figure class="figure ml-lg-1" style="max-height: 200px; width: 110px; height: 80px;">
+                                        <img src="./Items/playstore.jpg" alt="" class="img-fluid rounded" style="height: 100%; width: auto">
+                                    </figure>
+                                </div>
+                            </div>                                                                              
+                        </div>                        
+                    </div>
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <figure class="figure" style="max-height: 400px; width: 100%;">
+                            <img src="./Items/seamless2.jpg" alt="" class="img-fluid rounded" style="max-height: 450px;">
+                        </figure>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="jumbotron bg-white">
+                <h1 class="display-4 text-center" style="font-weight: 800;">Trusted by</h1>
+                <div class="row justify-content-center mt-5">
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <figure class="figure">
+                            <img src="./Items/smile1.png" alt="" class="img-fluid rounded" style="max-height: 300px; width: auto; height: 200px; margin-left: 0px;">
+                        </figure>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center" style="margin-top: 100px;">
+                        <h2 class="display-2 text-danger" style="font-size: 80px; font-weight: 900;">1 000 000</h2>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center" style="margin-top: 100px;">
+                        <figure class="figure">
+                            <img src="./Items/smile2.png" alt="" class="img-fluid rounded" style="max-height: 500px; width: auto;">
+                        </figure>
+                    </div>
+                </div>                
+                <hr class="my-2">
+            </div>            
+            <div class="jumbotron bg-white">
+                <h1 class="display-4.5 text-center" style="font-weight: 800;">Get better and better</h1>
+                <p class="mt-3 text-center" style="color: gray; font-size: 20px;">
+                    Discover why Xample is the preferred choice for millions of users in <br/> 195 countries worldwide.
+                </p>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="input-group mb-3 justify-content-center">
+                                <div class="col-auto">
+                                    <input id="emailInput2" type="text" class="form-control" aria-label="" aria-describedby="basic-addon1" placeholder="Name@company.com" style="width: 100%; max-width: 350px; border-radius: 30px; border-width: 1px; font-size: 20px; padding: 15px; height: 60px;">
+                                </div>                            
+                                <div class="input-group-append ml-2 ml-lg-4">
+                                    <button id="submitButton2" class="btn btn-danger" type="button" style="width: 150px; max-width: 150px; border-radius: 30px; border-width: 3px; font-size: 20px; padding: 5px;">Try it Free</button>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>                                 
+            </div>            
+        </div>
+    </div>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
